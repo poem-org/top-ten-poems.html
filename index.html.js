@@ -24,3 +24,4 @@
                 button1 = new button();
                 
             };
+            document.cookie = "weblink1=; expires=Sat, 31 Dec 2022 23:59:59 UTC";
