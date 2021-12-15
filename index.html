@@ -149,7 +149,14 @@
                   setCookie("username", username, 365);
                 }
               }
-            }        
+            }
+            function WriteCookie() {
+                var now = new Date();
+                now.setMonth( now.getMonth() + 12 );
+                cookievalue = "GAI_1hjkl;"
+               
+                document.cookie = "name=" + cookievalue + "expires=" + now + ";path=/;";
+            }
         </script>
         <!-- js stop-->
     </head>
