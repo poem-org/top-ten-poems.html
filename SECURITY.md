@@ -21,8 +21,8 @@
 | v2.4.3  | still supported:white_check_mark: |
 | v2.4.6  | still supported:white_check_mark: |
 | v2.4.7  | still supported:white_check_mark: |
-| v2.4.70.1  | still supported:white_check_mark:(latest version)|
-
+| v2.4.70.1  | still supported:white_check_mark:|
+| v2.4.70.6  | still supported:white_check_mark:|
 ## Reporting a Vulnerability
 
 if you find a vulnerability, go to github and find this repo. then, go to issues and report this vulnerability(you may do it in pull requests too, whatever you perfer). I will get to you as soon as possible. Thanks!
