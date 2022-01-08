@@ -1,1 +1,25 @@
-
+{
+  "name": "@boscokwong/packages-test",
+  "version": "1.0.0",
+  "description": "npm package",
+  "main": "index.html.js",
+  "scripts": {
+    "test": " exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamehameha-studios/packages-test.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "boscokwong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kamehameha-studios/packages-test/issues"
+  },
+  "homepage": "https://github.com/kamehameha-studios/packages-test#readme"
+  "publishConfig": {
+   "@boscokwong:registry": "https://npm.pkg.github.com"
+ }
+}
