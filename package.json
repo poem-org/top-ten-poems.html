@@ -1,5 +1,5 @@
 {
-  "name": "@boscokwong/packages-test",
+  "name": "@boscokwong/poem.org.top-ten-poems.html",
   "version": "1.0.0",
   "description": "npm package",
   "main": "index.html.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kamehameha-studios/packages-test.git"
+    "url": "git+https://github.com/boscokwong/poem.org.top-ten-poems.html.git"
   },
   "keywords": [
     "npm"
