@@ -14,12 +14,18 @@
     "npm"
   ],
   "author": "boscokwong",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kamehameha-studios/packages-test/issues"
+    "url": "https://github.com/boscokwong/poem.org.top-ten-poems.html/issues"
+    "email": "boscohkwong@gmail.com"
   },
-  "homepage": "https://github.com/kamehameha-studios/packages-test#readme"
+  "homepage": "https://github.com/boscokwong/poem.org.top-ten-poems.html#readme"
   "publishConfig": {
    "@boscokwong:registry": "https://npm.pkg.github.com"
  }
+ "os": [
+   "mac"
+   "windows"
+   "linux"
+ ]
 }
