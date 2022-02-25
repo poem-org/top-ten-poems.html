@@ -5,6 +5,15 @@
 
 version: 2
 updates:
+  - package-ecosystem: "npm"
+    directory: "/npm/json"
+    schedule:
+      interval: "daily"
+    assignees:
+      - "boscokwong"
+    open-pull-requests-limit: 100
+    rebase-strategy: "disabled"
+
   - package-ecosystem: "github-actions"
     directory: "/actions"
     schedule:
