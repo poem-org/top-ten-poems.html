@@ -1,0 +1,68 @@
+{
+    "name": "npm1",
+    "description": "packages of poem.org",
+    "version": "0.0.0",
+    "main": "npm/main.js",
+    "files": [
+      "npm/json"
+    ],
+    "dependencies": {
+      "connected-react-router": "^5.0.1",
+      "history": "^4.10.1",
+      "isomorphic-fetch": "^3.0.0",
+      "moment": "^2.29.1",
+      "react-dom": "^16.13.0",
+      "react": "^16.14.0",
+      "react-markdown": "^4.3.1",
+      "react-redux": "^5.1.2",
+      "react-router-dom": "^6.2.1",
+      "redux": "^4.1.2",
+      "redux-thunk": "^2.4.1",
+      "semantic-ui-css": "2.4.1",
+      "semantic-ui-react": "2.1.1",
+      "set-value": ">=4.1.0",
+      "styled-components": "^5.3.3"
+  
+    },
+    "devDependencies": {
+      "babel-core": "^6.26.3",
+      "babel-loader": "^7.1.2",
+      "babel-plugin-react-html-attrs": "^3.0.5",
+      "babel-plugin-transform-class-properties": "^6.24.1",
+      "babel-plugin-transform-function-bind": "^6.22.0",
+      "babel-plugin-transform-node-env-inline": "^0.4.3",
+      "babel-polyfill": "^6.26.0",
+      "babel-preset-es2015": "^6.24.1",
+      "babel-preset-react": "^6.24.1",
+      "babel-preset-stage-0": "^6.24.1",
+      "css-loader": "^0.28.4",
+      "file-loader": "^2.0.0",
+      "node": "17.4.0",
+      "node-sass": "^7.0.1",
+      "react-hot-loader": "^4.13.0",
+      "redux-devtools": "^3.7.0",
+      "redux-devtools-dock-monitor": "^1.1.2",
+      "redux-devtools-log-monitor": "^1.3.0",
+      "redux-logger": "^3.0.6",
+      "sass-loader": "^7.3.1",
+      "style-loader": "^0.23.1",
+      "url-loader": "^1.1.2",
+      "webpack": "^3.8.1",
+      "webpack-dev-server": "^2.9.7"
+    },
+    "peerDependencies": {},
+    "scripts": {
+      "build": "webpack --config webpack/webpack.config.js -p --display-error-details --progress --optimize-minimize",
+      "dev": "webpack-dev-server --config webpack/webpack.config-dev.js --open"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/poem-org/home.html.git"
+    },
+    "bugs": {
+      "url": "https://github.com/poem-org/home.html/issues/"
+    },
+    "license": "MIT",
+    "homepage": "https://poem-org.github.io/home.html",
+    "author": "Bosco Kwong"
+  }
