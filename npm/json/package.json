@@ -7,7 +7,7 @@
       "npm/json"
     ],
     "dependencies": {
-      "connected-react-router": "^5.0.1",
+      "connected-react-router": "^6.9.2",
       "history": "^4.10.1",
       "isomorphic-fetch": "^3.0.0",
       "moment": "^2.29.1",
