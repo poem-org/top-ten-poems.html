@@ -20,7 +20,7 @@
       "react-router-dom": "^6.2.1",
       "redux": "^4.1.2",
       "redux-thunk": "^2.4.1",
-      "semantic-ui-css": "2.4.1",
+      "semantic-ui-css": "2.5.0",
       "semantic-ui-react": "2.1.2",
       "set-value": ">=4.1.0",
       "styled-components": "^5.3.3",
