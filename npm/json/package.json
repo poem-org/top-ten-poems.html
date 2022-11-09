@@ -40,7 +40,7 @@
       "file-loader": "^6.2.0",
       "css-loader": "^5.2.7",
       "node": "17.7.2",
-      "node-sass": "^7.0.1",
+      "node-sass": "^8.0.0",
       "react-hot-loader": "^4.13.0",
       "redux-devtools": "^3.7.0",
       "redux-devtools-dock-monitor": "^1.1.2",
