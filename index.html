@@ -1,10 +1,10 @@
-<!DOCTYPE HTML>
-    <!--Version: 2.5.0-->
+<!DOCTYPE HTML5>
     <!--HTML start-->
+    <html>
         <head lang="en">
             <title>My Poem Website: Top Ten Poems</title>
             <meta charset="UTF-8">
-    <!--CSS below-->
+            <!--CSS below-->
             <style>
                 /**************
                     Elements
@@ -30,9 +30,6 @@
                 /**************
                     Classes
                 **************/
-                .opH7kLf {
-                    bottom: 400px;
-                }
                 .prototype {
                     left: 51px;
                     visibility: hidden;
@@ -122,6 +119,12 @@
                 #j{
                     background: rgb(0, 255, 0)
                 }
+                #k{
+                    background: rgb(255, 0, 247)  
+                }
+                #l{
+                    background:rgb(255, 0, 0);
+                }
                 #blah {
                     background-color: pink;
                     z-index: 0;
@@ -134,11 +137,9 @@
             <!--CSS stop-->
             <!-- js start-->
             <script>
-
                 function setCookie(cname, cvalues, exdays) {
                     const d = new date();
-                    d.setTime(d.getTime() +
-                    (exdays*24*60*60*1000));
+                    d.setTime(d.getTime() + (exdays*24*60*60*1000));
                     var expires = "expires="+ d.toUTCString();
                     document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
                 }
@@ -161,7 +162,8 @@
                   var username = getCookie("username");
                   if (username != "") {
                    alert("Welcome again " + username);
-                  } else {
+                  } 
+                  else {
                     username = prompt("Please enter your name:", "");
                     if (username != "" && username != null) {
                       setCookie("username", username, 365);
@@ -173,9 +175,7 @@
                     now.setMonth( now.getMonth() + 12 );
                     var domain = "poem-org.github.io;";
 
-                    cookievalue = "GAI_1hjkl;"
-
-                    document.cookie = "name=" + cookievalue;
+                    document.cookie = "name=" + checkCookie.username();
                     document.cookie = "expires=" + now + ";";
                     document.cookie = "domain=" + domain;
 
@@ -183,28 +183,10 @@
             </script>
             <!-- js stop-->
         </head>
-    <!--HTML up/down-->
-        <body lang="en" onload="checkCookie(), WriteCookie()">            
+        <!--HTML up/down-->
+        <body lang="en" onload="checkCookie(); WriteCookie();">            
             <div>
-                <div class="opH7kLf">
-                    <div>
-                        <div id="h">
-                            <p class="arrow">
-                                <a herf="#header">
-                                    ⇧
-                                </a>
-                            </p>
-                        </div>
-                    </div>
-                    <div>
-                        <p class="bottom">
-                            <a href="#header">
-                                Back To Top
-                            </a>
-                        </p>
-                    </div>
-                </div>
-                <div id="b">
+                <div id="b" title="Title">
                     <h1 id="header">
                     <svg viewBox="0 0 10 10" x="200" width="100" stroke="red" fill="blue" alt="a circle">
                         <circle cx="5" cy="5" r="4" />
@@ -215,8 +197,8 @@
                         Poem.org 
                     </h1>
                 </div>
-                <div id="f">
-                    <h4>
+                <div id="f" title="Navagation">
+                    <nav>
                         <a herf="https://poem-org.github.io/home.html">
                             Home
                         </a>
@@ -230,14 +212,14 @@
                                 Help
                             </a>
                         </span>
-                    </h4>
+                    </nav>
                 </div>
-                <div id="c">
+                <div id="c" title="page title">
                     <h2 id="ten_poems"> 
                         Top Ten Poems 
                     </h2>
                 </div>
-                <div id="a">
+                <div id="a" title="table of contents">
                     <p>
                         <a href="#ten_poems">
                             Top Ten Poems
@@ -312,29 +294,56 @@
                                 The Raven
                             </em>
                         </a>
+                        <a href="#poem_8">
+                            <em class="name-querty">
+                                i carry your heart with me(i carry it in
+                            </em>
+                        </a>
                     </p>
                 </div>
-                <div id="d">
-            <h3> <em id="poem_1"> "Hope" is the thing with feathers </em> </h3>
-            <p> By <a href="https://en.wikipedia.org/wiki/Emily_Dickinson"> <em class="name"> Emily Dickinson </em> </a> (pronounce: <strong>di </strong>· kuhn · sn )</p>
-            <p>
-                <em>“<strong>Hope</strong>” is the thing with feathers - <br>
-                That perches in the soul - <br>
-                And sings the tune without the words - <br>
-                And never stops - at all - <br>
-                <br>
-                And sweetest - in the Gale - is heard - <br>
-                And sore must be the storm - <br>
-                That could abash the little Bird <br>
-                That kept so many warm - <br>
-                <br>
-                I’ve heard it in the chillest land - <br>
-                And on the strangest Sea - <br>
-                Yet - never - in Extremity, <br>
-                It asked a crumb - of me. <br></em>
-            </p>
-            </div>
-                <div id="e">
+                <div id="d" title="1">
+                    <h3> 
+                        <em id="poem_1"> 
+                            "Hope" is the thing with feathers 
+                        </em> 
+                    </h3>
+                    <p>
+                        By 
+                        <a href="https://en.wikipedia.org/wiki/Emily_Dickinson"> 
+                            <em class="name"> 
+                                Emily Dickinson 
+                            </em> 
+                        </a> 
+                        (pronounce: 
+                        <strong>
+                            di 
+                        </strong>
+                        · kuhn · sn )
+                    </p>
+                    <p>
+                        <em>
+                            “
+                            <strong>
+                                Hope
+                            </strong>
+                            ” is the thing with feathers - <br>
+                            That perches in the soul - <br>
+                            And sings the tune without the words - <br>
+                            And never stops - at all - <br>
+                            <br>
+                            And sweetest - in the Gale - is heard - <br>
+                            And sore must be the storm - <br>
+                            That could abash the little Bird <br>
+                            That kept so many warm - <br>
+                            <br>
+                            I’ve heard it in the chillest land - <br>
+                            And on the strangest Sea - <br>
+                            Yet - never - in Extremity, <br>
+                            It asked a crumb - of me. <br>
+                        </em>
+                    </p>
+                </div>
+                <div id="e" title="2">
             <h3> <em id="poem_2"> <strong> The Waste Land </strong> </em> </h3>
             <p> By <a href="https://en.wikipedia.org/wiki/T._S._Eliot"> <em class="name"> T.S. Eliot </em> </a> (Pronounce: <strong>ē </strong> • lī • ə)</p>
                 <em><p id="poem_2_part_1">I. The Burial of the Dead</p>
@@ -820,7 +829,7 @@
                 Datta. Dayadhvam. Damyata.<br>
                 Shantih     shantih     shantih</p> </em>
                 </div>
-                <div id="blah">
+                <div id="blah" title="3">
                 <em>
                     <h3 id="poem_3">
                         Still I Rise
@@ -884,7 +893,7 @@
                 I rise<br>
                 I rise.</p></em>
                 </div>
-                <div id="g">
+                <div id="g" title="4">
                     <em>
                         <h3 id="poem_4">
                             Sonnet 18
@@ -918,7 +927,7 @@
                         </p>
                     </em>
                 </div>
-                <div id="i">
+                <div id="i" title="5">
                     <em>
                         <h3 id="poem_5">
                             O Captain! My Captian!
@@ -964,7 +973,7 @@
                         </p>
                     </em>
                 </div>
-                <div id="j">
+                <div id="j" title="6">
                     <em>
                         <h3 id="poem_6">
                             Do not go gentle into that good night
@@ -1008,7 +1017,7 @@
                         </p>
                     </em>
                 </div>
-                <div id="k">
+                <div id="k" title="7">
                     <em>
                         <h3 id="poem_7">
                             The Raven
@@ -1152,6 +1161,59 @@
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shall be lifted—nevermore!<br>
                         </p>
                     </em>
+                </div>
+                <div id="l" title="8">
+                    <em>
+                        <h3 id="poem_8">
+                            [i carry your heart with me(i carry it in]
+                        </h3>
+                        <p>
+                            By:
+                            <a>
+                                E. E. Cummings
+                            </a>
+                            Pronounce:
+                            <strong>KUM</strong>
+                            INGZ
+                        </p>
+                        <p>
+                            i carry your heart with me(i carry it in<br>
+                            my heart)i am never without it(anywhere<Br>
+                            i go you go,my dear;and whatever is done<br>
+                            by only me is your doing,my darling)<br>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i fear<Br>
+                            no fate(for you are my fate,my sweet)i want<br>
+                            no world(for beautiful you are my world,my true)<br>
+                            and it’s you are whatever a moon has always meant<br>
+                            and whatever a sun will always sing is you<br>
+                            <Br>
+                            here is the deepest secret nobody knows<Br>
+                            (here is the root of the root and the bud of the bud<br>
+                            and the sky of the sky of a tree called life;which grows<br>
+                            higher than soul can hope or mind can hide)<br>
+                            and this is the wonder that's keeping the stars apart<br>
+                            <br>
+                            i carry your heart(i carry it in my heart)<br>
+                        </p>
+                    </em>
+                </div>
+                <div class="opH7kLf" title="back-to-top">
+                    <div>
+                        <div id="h">
+                            <p class="arrow">
+                                <a herf="#header">
+                                    ⇧
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="bottom">
+                            <a href="#header">
+                                Back To Top
+                            </a>
+                        </p>
+                    </div>
                 </div>
             </div>
             <!--JS below-->
